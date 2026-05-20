@@ -43,8 +43,8 @@
             z-index: 100;
             border-bottom: 1px solid var(--border);
         }
-        .nav-logo { display: flex; align-items: center; text-decoration: none; }
-        .nav-logo img { height: 32px; width: auto; display: block; }
+        .nav-logo { display: flex; align-items: center; text-decoration: none; color: var(--text); font-size: 1.2rem; font-weight: 800; letter-spacing: -0.5px; }
+        .nav-logo .dot { color: var(--indigo); }
         .nav-right { display: flex; align-items: center; gap: 28px; }
         .nav-links { display: flex; gap: 28px; }
         .nav-links a {
@@ -220,9 +220,7 @@
 
 <!-- Nav -->
 <nav>
-    <a href="#" class="nav-logo">
-        <img src="devholic_logo.png" alt="DevHolic">
-    </a>
+    <a href="#" class="nav-logo">DevHolic<span class="dot">.</span></a>
     <div class="nav-right">
         <div class="nav-links">
             <a href="#puzzle" data-ko="퍼즐" data-en="Puzzle">퍼즐</a>
